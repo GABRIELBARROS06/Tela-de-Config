@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #5db7f3;
+  font-family: 'Nunito', sans-serif;
+}
+
+.configuracoes {
+  /* Estilos gerais da tela */
+  background-color: #5ba9fd;
+}
+
+.configuracoes h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  /* Estilos da barra de pesquisa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input{
+  margin-top: 16px;
+  height: 50px;
+  width: 50vw;
+  background-color: #ACD0F5;
+  border-radius: 12px;
+}
+
+.search-bar input ::placeholder{
+font-size: 24px;
+}
+
+.options-list {
+  /* Estilos da lista de opções */
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+  padding: 6px;
+}
+
+.options-list .perfil{
+  display: flex;
+  align-items:center ;
+  gap: 6px;
+  width: 30vw;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+.options-list .perfil p{
+  font-size: 24px;
+  background-color: aliceblue;
+}
+.options-list .suport{
+  display: flex;
+  align-items:center ;
+  gap: 6px;
+  width: 30vw;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+
+.options-list .suport p{
+  font-size: 24px;
+  background-color: aliceblue;
+}
+
+.options-list .sobre{
+  display: flex;
+  align-items:center ;
+  gap: 6px;
+  width: 30vw;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+
+.options-list .sobre p{
+  font-size: 24px;
+  background-color: aliceblue;
+}
+
+.nivel {
+  /* Estilos do botão de exclusão */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: aliceblue;
+  outline: none;
+  border: none;
+  width: 30vw;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+
+.nivel p{
+  font-size: 24px;
+  background-color:aliceblue;
+}
+
+
+.excluir {
+  /* Estilos do botão de exclusão */
+  display: flex;
+  align-items: center;
+  background-color: #fd5b5b;
+  outline: none;
+  border: none;
+  width: 30vw;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+
+.excluir p{
+  font-size: 24px;
+  background-color:#fd5b5b;
+}
